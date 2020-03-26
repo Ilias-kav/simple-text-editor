@@ -1,10 +1,14 @@
 # simple-text-editor
+
 A java program for simple text manipulation.
-######How to run:
+
+###### How to run:
+
 java mypackage.MyEditor xxx.txt
 where xxx your file name
 
-######How it works:
+###### How it works:
+
 - command || operation
 1. ^       || Go to the first lie
 2. $       || Go to the last line
@@ -26,7 +30,8 @@ where xxx your file name
 18. s      || Searches for word and prints every line it appears on (serial search - exhaustive)
 19. b      || Searches for word and prints every line it appears on (binary search)
 
-######Some useful information:
+###### Some useful information:
+
 The .txt file is loaded in memory and implemented as a doubly linked list.
 Contents of .txt file are split into words, coupled with the line numbers they appear on and inserted in an Arraylist
 before written to .ndx file.
