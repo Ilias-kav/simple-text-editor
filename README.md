@@ -7,8 +7,8 @@ How it works:
 command || operation
 ^       || Go to the first lie
 $       || Go to the last line
-"-"       || Go up one line
-"+"       || Go down one line
+"-"     || Go up one line
+"+"     || Go down one line
 a       || Add new line after current line (the user is asked to type in the text for the new line)
 t       || Add new line before current line (the user is asked to type in the text for the new line)
 d       || Delete current line
@@ -19,7 +19,7 @@ q       || Quit without save
 w       || Write file to disk
 x       || Exit with save
 =       || Print current line number
-#       || Print number of lines and characters
+"#"     || Print number of lines and characters
 c       || Creates an indexing file xxx.txt.ndx. Prints the number of pages of the file.
 v       || Prints the content of the indexing file (word, line numbers)
 s       || Searches for word and prints every line it appears on (serial search - exhaustive)
